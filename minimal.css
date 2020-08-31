@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+}
+.scrollbutton {
+  position: fixed;
+  right: 0;
+  padding-top: 30vh;
+  padding-right: 10px;
+}
+ 
+.btn {
+ text-align: end;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.btn .fa{
+ z-index: 2;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.btn span {
+ 
+  opacity: 0;z-index: 1;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.btn span:hover {
+  opacity: 1;
+ 
+  color: white;
+  font-size: small;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 10px;
+  z-index: 3;
+}
+.btn a:active {
+  color: rgb(43, 95, 238);
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.btn a:hover {
+  color: rgb(43, 95, 238);
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+#main-page {
+  background-color: #b8b8b8;
+   
+   
+  height: 100vh;
+ 
+  justify-content: CENTER;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.name {
+  font-family: "poppins", sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  padding-top: 40vh;
+}
+.a {
+  margin-top: 20px;
+}
+.arrow-down {
+  text-decoration: none;
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  transform: rotate(90deg);
+}
+ 
+.a a {
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+}
+.arrow-down a:hover {
+  text-decoration: none;
+  color: black;
+}
+#education {
+  background-color: #949494;
+
+  height: 100vh;
+  justify-content: CENTER;
+  text-align: center;
+}
+#education h1 {
+  padding-top: 30vh;
+}
+.skill {
+  background-color: #4f555a;
+
+  height: 100vh;
+  justify-content: CENTER;
+  text-align: center;
+}
+.skill h1 {
+  padding-top: 30vh;
+}
+.table {
+  display: grid;
+  width: 50%;
+  padding-top: 3vw;
+  justify-content: CENTER;
+  margin-left: 25%;
+
+  grid-auto-rows: minmax(90px, auto);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.inter {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.skil {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.languages h5 a {
+  text-decoration: none;
+  color: #b9c0c5;
+}
+.c p {
+  font-size: smaller;
+}
+.sk {
+  color: white;
+  background-color: rgb(48, 48, 48);
+}
+.skil h5 a {
+  color: #b9c0c5;
+}
+.c h5 a {
+  color: #b9c0c5;
+}
+.grey {
+  color: #b9c0c5;
+}
+.footer {
+  color: white;
+  background-color: rgb(12, 12, 12);
+}
+
+/* @media (max-width:768px){
+  .name{
+    font-size:12px;
+  }
+} */
+ 
