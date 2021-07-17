@@ -4,7 +4,7 @@
 // let l= document.createElement('li');
 // l.className= "lc";
 // l.innerText='iiii'
- 
+
 
 // let a = document.querySelector('ul.list');
 // a.appendChild(q);
@@ -20,11 +20,13 @@
 //     document.body.style.backgroundColor= `rgb(${e.offsetY},15,${e.offsetX/2})`
 //     console.log(vari);
 // });
-let str= 'python';
-let links= document.links;
+let str = 'python';
+let links = document.links;
 let ref;
-Array.from(links).forEach(function(e){
-ref = e.href;
-if (ref.includes(str)){
-    console.log(ref);}});
+Array.from(links).forEach(function (e) {
+    ref = e.href;
+    if (ref.includes(str)) {
+        console.log(ref);
+    }
+});
 
